@@ -2,7 +2,7 @@ import { createStore } from 'vuex';
 import axios from 'axios';
 
 // Set a base URL for all API requests to make them cleaner
-axios.defaults.baseURL = 'http://localhost:9090';
+axios.defaults.baseURL = 'https://e-commerce-cake4days.onrender.com';
 // Set this header so cookies are sent with every request
 axios.defaults.withCredentials = true;
 
